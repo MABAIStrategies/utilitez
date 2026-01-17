@@ -1,0 +1,34 @@
+{
+  "state": "DE",
+  "providers": [
+    {
+      "id": "de-delmarva-electric",
+      "name": "Delmarva Power",
+      "type": "Electric",
+      "serviceArea": "Delaware (varies by county)",
+      "website": "https://www.delmarva.com",
+      "phone": "800-375-7117",
+      "zipPrefixes": ["197", "198", "199"],
+      "notes": "Demo dataset entry. Replace with verified service territory rules."
+    },
+    {
+      "id": "de-delmarva-gas",
+      "name": "Delmarva Power",
+      "type": "Gas",
+      "serviceArea": "Northern Delaware (select areas)",
+      "website": "https://www.delmarva.com",
+      "phone": "800-375-7117",
+      "zipPrefixes": ["197", "198"],
+      "notes": "Demo dataset entry."
+    },
+    {
+      "id": "de-municipal-water",
+      "name": "Municipal Water (Example)",
+      "type": "Water",
+      "serviceArea": "City / County dependent",
+      "website": "https://delaware.gov",
+      "zipPrefixes": ["197", "198", "199"],
+      "notes": "Placeholder to show water category behavior."
+    }
+  ]
+}

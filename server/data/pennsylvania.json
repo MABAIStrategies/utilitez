@@ -1,0 +1,34 @@
+{
+  "state": "PA",
+  "providers": [
+    {
+      "id": "pa-peco-electric",
+      "name": "PECO Energy",
+      "type": "Electric",
+      "serviceArea": "Southeastern Pennsylvania (Philadelphia area)",
+      "website": "https://www.peco.com",
+      "phone": "800-494-4000",
+      "zipPrefixes": ["190", "191", "193", "194"],
+      "notes": "Demo dataset entry."
+    },
+    {
+      "id": "pa-peoples-gas",
+      "name": "Peoples Gas",
+      "type": "Gas",
+      "serviceArea": "Western Pennsylvania (varies)",
+      "website": "https://www.peoples-gas.com",
+      "phone": "800-764-0111",
+      "zipPrefixes": ["150", "151", "152", "153"],
+      "notes": "Demo dataset entry."
+    },
+    {
+      "id": "pa-water-placeholder",
+      "name": "Water Utility (Example)",
+      "type": "Water",
+      "serviceArea": "Municipal / Authority dependent",
+      "website": "https://www.pa.gov",
+      "zipPrefixes": ["150", "151", "152", "153", "190", "191", "193", "194"],
+      "notes": "Placeholder to show water category behavior."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "state": "MD",
+  "providers": [
+    {
+      "id": "md-bge-electric",
+      "name": "BGE (Baltimore Gas and Electric)",
+      "type": "Electric",
+      "serviceArea": "Central Maryland (Baltimore area)",
+      "website": "https://www.bge.com",
+      "phone": "800-685-0123",
+      "zipPrefixes": ["210", "211", "212", "214"],
+      "notes": "Demo dataset entry."
+    },
+    {
+      "id": "md-bge-gas",
+      "name": "BGE (Baltimore Gas and Electric)",
+      "type": "Gas",
+      "serviceArea": "Central Maryland (Baltimore area)",
+      "website": "https://www.bge.com",
+      "phone": "800-685-0123",
+      "zipPrefixes": ["210", "211", "212", "214"],
+      "notes": "Demo dataset entry."
+    },
+    {
+      "id": "md-pepco-electric",
+      "name": "Pepco",
+      "type": "Electric",
+      "serviceArea": "DC suburbs (select MD areas)",
+      "website": "https://www.pepco.com",
+      "phone": "202-833-7500",
+      "zipPrefixes": ["207", "208", "209"],
+      "notes": "Demo dataset entry."
+    }
+  ]
+}
