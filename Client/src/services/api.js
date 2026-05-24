@@ -1,4 +1,6 @@
-const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:5050";
+const API_BASE =
+  import.meta.env.VITE_API_BASE ??
+  (import.meta.env.DEV ? "http://localhost:5050" : "/_/backend");
 
 export async function fetchStates() {
   const res = await fetch(`${API_BASE}/api/states`);
