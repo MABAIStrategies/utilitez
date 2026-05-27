@@ -1,0 +1,15 @@
+{
+  "name": "utilitez",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "Client",
+    "server"
+  ],
+  "scripts": {
+    "dev:client": "npm run dev -w Client",
+    "dev:server": "npm run dev -w server",
+    "build": "npm run build -w Client",
+    "install:all": "npm install --workspaces"
+  }
+}
